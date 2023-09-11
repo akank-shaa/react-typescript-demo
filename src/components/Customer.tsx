@@ -4,6 +4,7 @@ interface IPROPS {
     title: String;
     age?: Number;
 }
+
 let Customer: React.FC<IPROPS> = ({ name, title, age }) => {
     return (
         <>
